@@ -1,0 +1,39 @@
+run_name: rqro_reason_tube_lora
+fast_epoch: False
+
+conv_mode: emo_llama_nochoice_reason
+
+per_device_train_batch_size: 1
+dataloader_num_workers: 6
+
+use_cap: False
+use_img: True
+reason: True
+
+use_im_start_end: True
+use_im_patches: True
+evaluation_strategy: 'no'
+use_tube: True
+freeze_llm_proj: False
+apply_lora: True
+
+
+llm_path:  #Stage 1 Model
+
+json_file_train:  # Training data in Google Drive
+json_file_val:  # Testing data in Google Drive
+image_paths: # Path to the selected frames for training
+reason_path:  # Path to the reasons for training
+
+freeze_llm: False
+freeze_backbone: True
+
+num_convos: 1
+num_train_epochs: 3
+
+model_path: # Path to the model to be loaded
+test_batch_size: 1
+response_path: # Path to save the responses
+
+
+
