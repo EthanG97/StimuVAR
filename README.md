@@ -53,6 +53,7 @@ You can download the necessary resources from Google Drive:
 - [📁 Training Data](https://drive.google.com/file/d/1-M8rQcxNmTKL6rahTq1g8QDT0shyn2H0/view?usp=drive_link)  
 - [📁 Test Data](https://drive.google.com/file/d/1G_WjRd3FPkFexxSOii_t3vnc4i20yW_z/view?usp=drive_link)  
 - [📄 Reasoning File](https://drive.google.com/file/d/1V6E68KOCO3qiUacg_v_XCMbdsYhl4dTu/view?usp=drive_link)
+- [Trained model](https://drive.google.com/drive/folders/1hsX2YSVSG1GkCXpGwzRRwEIfTu9RmANP?usp=drive_link)
 
 ### Training Commands
 
