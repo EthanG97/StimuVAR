@@ -56,7 +56,7 @@ def main(filename1, outputfile):
     response = pd.read_json(path_or_buf=filename1, lines=True)
 
     # Initialize OpenAI client
-    client = OpenAI(api_key='sk-proj-u1OBgYYZB7QML8AnlP9OT3BlbkFJ1eypBKRNuHj13eVlsARM') # OpenAI key
+    client = OpenAI(api_key='') # OpenAI key
 
     response_sample = response.sample(n=100, random_state=42)
 
