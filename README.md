@@ -78,6 +78,16 @@ To run inference with a trained StimuVAR model:
 
    ```bash
    torchrun --nproc_per_node=1 inference.py --config config/Inference.yaml
+   ```
+
+## Demo
+  To run the demo for a single video, fill in the model path, config file and the video name
+  ```bash
+python demo.py \
+  --video assets/sample_video.mp4 \
+  --model_path checkpoints/stage2/checkpoint-150000 \
+  --config config/Inference.yaml
+```
 ## 🧪 Evaluation
 
 ### CLIP-Score
