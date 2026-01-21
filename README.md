@@ -117,7 +117,7 @@ python Metrics/Doubly/emo_align.py --response_path /path/to/model_responses.json
 
 ### 🙏 Acknowledgment
 
-Special thanks to [_Valley_](https://www.dropbox.com/scl/fi/myue506itjfc06m7svdw6/EmoSet-118K.zip?rlkey=7f3oyjkr6zyndf0gau7t140rv&e=2&dl=0) for providing high-quality code, which served as the foundation for our implementation.
+Special thanks to [_Valley_]([https://www.dropbox.com/scl/fi/myue506itjfc06m7svdw6/EmoSet-118K.zip?rlkey=7f3oyjkr6zyndf0gau7t140rv&e=2&dl=0](https://github.com/RupertLuo/Valley)) for providing high-quality code, which served as the foundation for our implementation.
 
 
 ### 📖 Citation
